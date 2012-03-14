@@ -1,0 +1,2 @@
+#!/usr/bin/osascript
+tell app "preview" to activate

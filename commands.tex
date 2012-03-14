@@ -1,0 +1,76 @@
+
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{setspace}
+% \usepackage{kpfonts}
+\usepackage{textcomp}
+\usepackage{fullpage}
+\usepackage{url}
+
+% -- font styles
+% \renewcommand*\rmdefault{dayrom}
+\usepackage[sc]{mathpazo} % Palatino (very readable)
+\usepackage[T1]{fontenc}
+% \usepackage{gfsdidot}
+% \usepackage[scaled]{beraserif}
+% \usepackage[bitstream-charter]{mathdesign}
+
+\floatstyle{ruled}
+
+% -- structural elements
+\newfloat{program}{thp}{lop}
+\floatname{program}{Program}
+
+\newfloat{figure}{thp}{lop}
+\floatname{figure}{Figure}
+
+% -- syntax highlighting
+\usepackage{listings}
+  \usepackage{courier}
+\usepackage{color}
+
+
+% \onehalfspacing
+\setstretch{1.08}
+\parskip 9pt
+
+% page margins
+\setlength{\textheight}{23cm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\textwidth}{6.5in}
+
+% I don't know what this does
+\def\printcitestart{\unskip $^\bgroup}
+\def\printbetweencitations{,}
+\def\printcitefinish{\egroup$}
+\def\printcitenote#1{\hbox{\sevenrm\space (#1)}}
+
+\newenvironment{aside} {
+  \parindent 7.2pt
+  \parskip 5pt
+} { }
+
+
+\lstset{
+  upquote=true,
+  breaklines=false,
+  %postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookrightarrow}},
+  breakatwhitespace=true,
+  %numbers=left,
+  language=Java,
+  basicstyle=\footnotesize\ttfamily,
+  %numberstyle=\tiny,
+  %numbersep=5pt,
+  tabsize=2,
+  extendedchars=true,
+  showtabs=false,
+  showspaces=false,
+  showstringspaces=false
+}
+\lstloadlanguages{
+  Java
+}
+
+
+%% \hyphenation{Fire-Detection-System}
+%% \hyphenation{Emergency-Communication-System}
