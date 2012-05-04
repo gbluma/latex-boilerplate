@@ -3,6 +3,7 @@ build:
 	pdflatex -halt-on-error document.tex
 
 test:
+	./convert.sh
 	#$(MAKE) clean
 	#latex -halt-on-error document.tex
 	#bibtex document
