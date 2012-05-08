@@ -13,7 +13,7 @@ suscipit tincidunt, mi nulla congue diam, ac convallis quam mi non nulla. Sed
 vitae leo nisi. Vestibulum blandit vehicula pellentesque. Vestibulum ante ipsum
 primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse
 in mi arcu. Cras vel felis leo. Sed suscipit risus purus, sed convallis libero.
-Aenean vestibulum est vitae ligula tristique quis dictum lacus sodales. Lorem
+Aenean[^1] vestibulum est vitae ligula tristique quis dictum lacus sodales. Lorem
 ipsum dolor sit amet, consectetur adipiscing elit.
 
 Broccoli is good for the brain
@@ -75,3 +75,4 @@ sodales vestibulum. Nulla facilisi. Integer in mauris velit.
 
 
 
+[^1]: This is an example footnote
