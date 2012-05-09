@@ -2,7 +2,7 @@
 Introduction
 ==============
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat nulla
+**Lorem** *ipsum* ***dolor*** sit amet, consectetur adipiscing elit. Ut volutpat nulla
 condimentum neque pulvinar non cursus tortor malesuada. Praesent augue est,
 vulputate ac pulvinar nec, dictum vitae sapien. Nullam mi augue, viverra eget
 convallis molestie, tincidunt eu augue. Vestibulum ultricies rutrum purus, nec
