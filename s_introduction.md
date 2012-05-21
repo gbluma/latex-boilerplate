@@ -6,6 +6,11 @@ Introduction
 condimentum neque pulvinar non cursus tortor malesuada. Praesent augue est,
 vulputate ac pulvinar nec, dictum vitae sapien. Nullam mi augue, viverra eget
 convallis molestie, tincidunt eu augue. Vestibulum ultricies rutrum purus, nec
+
+    instance Functor RegularExpression where
+        f 'fmap' Empty             = Empty
+        f 'fmap' (Singleton a)     = Singleton a
+
 imperdiet nibh tempus porta. Maecenas tincidunt, metus vel fringilla iaculis,
 turpis risus vehicula elit, vel vehicula metus urna mollis purus. Mauris a
 velit sed enim aliquet molestie ut vitae justo. Fusce iaculis, lacus sed

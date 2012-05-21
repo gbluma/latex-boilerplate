@@ -9,12 +9,12 @@
 
 % -- font styles
 % \renewcommand*\rmdefault{dayrom}
-% \usepackage[sc]{mathpazo} % Palatino (very readable)
+%\usepackage[sc]{mathpazo} % Palatino (very readable)
 \usepackage[T1]{fontenc}
 % \usepackage{gfsdidot}
 % \usepackage[scaled]{beraserif}
 % \usepackage[bitstream-charter]{mathdesign}
-\usepackage{mathptmx}
+% \usepackage{mathptmx}
 
 \floatstyle{ruled}
 
@@ -29,10 +29,14 @@
 \usepackage{listings}
   \usepackage{courier}
 \usepackage{color}
+\usepackage{caption}
+\DeclareCaptionFormat{listing}{\par\hrule #1#2#3}
+\captionsetup[lstlisting]{format=listing, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
 
 
 % \onehalfspacing
-\setstretch{1.25}
+\setstretch{1.09}
 \parskip 12pt
 
 % page margins
