@@ -8,13 +8,11 @@ I'd much rather maintain a separate project that can allow me to get up and runn
 
 Also, I've included a short applescript file called `focus` which refreshes
 the PDF document in Preview.app. This is hooked into `make` so whenever you 
-have new changes just run `make` and you'll see your new changes.
+have new changes just run `make test` and you'll see your new changes.
 
 If you have any recommendations I'd like to hear them.
 
 Thanks.
-
--- Garrett
 
 # How to use it?
 
@@ -25,4 +23,6 @@ Do this and you should have be ready to go.
     cd newdocument
     make && make open
 
+    # do work
+    make test
 
