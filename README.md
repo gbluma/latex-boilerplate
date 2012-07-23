@@ -1,5 +1,7 @@
 # About LaTeX-boilerplate
 
+![Screenshot](screenshot.png)
+
 This project is a placeholder for all of my new LaTeX documents. After
 spending too many hours customizing a document format mid-project I've learned my lesson. 
 I'd much rather maintain a separate project that can allow me to get up and running quickly.
