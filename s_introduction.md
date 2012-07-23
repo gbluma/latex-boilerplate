@@ -60,6 +60,12 @@ id pellentesque in, egestas eget tortor. In purus lectus, auctor ac ultrices
 nec, facilisis sit amet quam. Integer id mauris est. Sed nisl purus, tempor in
 interdum in, elementum ut libero. Maecenas rutrum sollicitudin feugiat.
 
+\begin{align*}
+a =& 9 \\
+b =& 10 \\
+c =& 100,000,00
+\end{align*}
+
 Ut dictum libero sed dui sollicitudin quis sodales turpis auctor. Integer eget
 tortor sapien, vel venenatis diam. Aenean cursus nisi consectetur lorem
 elementum ut congue dolor . Vestibulum interdum, mi vel lobortis
