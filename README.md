@@ -1,6 +1,6 @@
 # About LaTeX-boilerplate
 
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/gbluma/latex-boilerplate/raw/master/screenshot.png)
 
 This project is a placeholder for all of my new LaTeX documents. After
 spending too many hours customizing a document format mid-project I've learned my lesson. 
