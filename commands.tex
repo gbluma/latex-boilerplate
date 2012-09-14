@@ -27,8 +27,8 @@
 \newfloat{program}{thp}{lop}
 \floatname{program}{Program}
 
-\newfloat{figure}{thp}{lop}
-\floatname{figure}{Figure}
+%\newfloat{figure}{thp}{lop}
+%\floatname{figure}{Figure}
 
 % -- syntax highlighting
 \usepackage{listings}
@@ -37,6 +37,7 @@
 \usepackage{caption}
 \DeclareCaptionFormat{listing}{\par\hrule #1#2#3}
 \captionsetup[lstlisting]{format=listing, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+\captionsetup[figure]{format=listing, singlelinecheck=false, margin=60pt, font={it,footnotesize,centering}}
 
 
 
