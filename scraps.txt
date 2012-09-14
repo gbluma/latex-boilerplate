@@ -21,10 +21,10 @@
 
 
 %% \begin{figure}[H]
-%%   \caption{Demo caption for diagram}
 %%   \centering
 %%      \includegraphics[scale=0.6]{diagrams/component-http.eps}
 %%   \label{fig:component-http}
+%%   \caption{Demo caption for diagram}
 %% \end{figure}
 
 \begin{quote}

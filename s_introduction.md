@@ -95,5 +95,13 @@ sodales vestibulum. Nulla facilisi. Integer in mauris velit.
 > Very quoteable
 
 
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=0.6]{screenshot.png}
+  \label{fig:component-http}
+  \caption{Demo caption for diagram}
+\end{figure}
+
+
 
 [^1]: This is an example footnote
