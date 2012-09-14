@@ -26,3 +26,12 @@ Do this and you should have be ready to go.
     # do work
     make test
 
+By default, the Makefile will build TeX files from any markdown files that
+exist in your working directory. This has a requirement on Pandoc, so if you
+don't have it or you don't want to use that workflow, then update the Makefile
+to not call `convert.sh`.
+
+I think Pandoc is a nice addition. It does get me in trouble from time to time
+but overall it saves effort. I can use standard Markdown syntax for 95% of my
+writing (bold, italic, code, titles, etc.) and then drop back to LaTeX for the
+hard stuff (tables and graphics). 
