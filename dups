@@ -1,6 +1,9 @@
 #!/usr/bin/env perl
  
 # Finds duplicate adjacent words.
+
+# Courtesy of Matt Might: 
+# http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
  
 use strict ;
  

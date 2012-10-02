@@ -54,7 +54,7 @@ lorem turpis non lacus. Suspendisse imperdiet, nisl ut molestie dignissim,
 velit magna euismod tortor, at fringilla orci tortor varius justo. Nulla
 facilisi. Donec metus tellus, sollicitudin eu feugiat vitae, sollicitudin
 tempor erat. Nunc dictum, ipsum non blandit lobortis, nunc dui vestibulum nisl,
-in tincidunt turpis turpis eget risus. Maecenas quis ante sit amet lacus
+in tincidunt turpis eget risus. Maecenas quis ante sit amet lacus
 convallis dapibus. Ut mauris nibh, varius auctor facilisis at, facilisis non
 ligula. Nulla luctus ullamcorper vestibulum. Cum sociis natoque penatibus et
 magnis dis parturient montes, nascetur ridiculus mus. Ut lorem quam, tincidunt
@@ -90,7 +90,7 @@ sodales vestibulum. Nulla facilisi. Integer in mauris velit.
 
 
 > Blockquote ---
-> Very quoteable
+> Quoteable
 
 
 \begin{figure}[H]
