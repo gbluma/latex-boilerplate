@@ -6,7 +6,7 @@
 \usepackage{textcomp}
 \usepackage{fullpage}
 \usepackage{url}
-\usepackage{mdframed}
+%\usepackage{mdframed}
 
 % -- font styles
 % \renewcommand*\rmdefault{dayrom}
@@ -53,12 +53,14 @@
 \def\printcitefinish{\egroup$}
 \def\printcitenote#1{\hbox{\sevenrm\space (#1)}}
 
-\newenvironment{aside}
-  {\begin{mdframed}[style=0,%
-      leftline=false,rightline=false,leftmargin=2em,rightmargin=2em,%
-          innerleftmargin=0pt,innerrightmargin=0pt,linewidth=0.75pt,%
-      skipabove=25pt,skipbelow=25pt]\small}
-  {\end{mdframed}}
+
+% TODO: mdframed doesn't work well with ubuntu
+% \newenvironment{aside}
+%   {\begin{mdframed}[style=0,%
+%       leftline=false,rightline=false,leftmargin=2em,rightmargin=2em,%
+%           innerleftmargin=0pt,innerrightmargin=0pt,linewidth=0.75pt,%
+%       skipabove=25pt,skipbelow=25pt]\small}
+%   {\end{mdframed}}
 
 
 \lstset{

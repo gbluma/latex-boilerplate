@@ -12,6 +12,7 @@ test:
 
 open:
 	open document.pdf
+	# evince document.pdf &
 
 bib:
 	latex -halt-on-error document.tex

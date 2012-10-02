@@ -47,7 +47,6 @@ adipiscing et, tincidunt non quam. Donec sed tortor sem, ut iaculis lorem.
 Quisque tortor lectus, pharetra id fermentum ac, dictum ut sem. Morbi a nibh in
 metus condimentum blandit.
 
-\begin{aside}
 ***Bold font***
 
 Donec faucibus, purus eu luctus volutpat, risus enim hendrerit orci, sed dictum
@@ -62,7 +61,6 @@ magnis dis parturient montes, nascetur ridiculus mus. Ut lorem quam, tincidunt
 id pellentesque in, egestas eget tortor. In purus lectus, auctor ac ultrices
 nec, facilisis sit amet quam. Integer id mauris est. Sed nisl purus, tempor in
 interdum in, elementum ut libero. Maecenas rutrum sollicitudin feugiat.
-\end{aside}
 
 ligula. Nulla luctus ullamcorper vestibulum. Cum sociis natoque penatibus et
 magnis dis parturient montes, nascetur ridiculus mus. Ut lorem quam, tincidunt
