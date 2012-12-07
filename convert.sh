@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -e
+
 echo "converting markdown to TeX..."
 
 for f in *.md; do
