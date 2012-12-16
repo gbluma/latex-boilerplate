@@ -16,7 +16,9 @@ imperdiet nibh tempus porta. Maecenas tincidunt, metus vel fringilla iaculis,
 turpis risus vehicula elit, vel vehicula metus urna mollis purus. Mauris a
 velit sed enim aliquet molestie ut vitae justo. Fusce iaculis, lacus sed
 suscipit tincidunt, mi nulla congue diam, ac convallis quam mi non nulla. Sed
-vitae leo nisi. Vestibulum blandit vehicula pellentesque. Vestibulum ante ipsum
+vitae leo nisi. Vestibulum blandit vehicula pellentesque. 
+
+Vestibulum ante ipsum
 primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse
 in mi arcu. Cras vel felis leo. Sed suscipit risus purus, sed convallis libero.
 Aenean[^1] vestibulum est vitae ligula tristique quis dictum lacus sodales. Lorem
@@ -91,7 +93,13 @@ sodales vestibulum. Nulla facilisi. Integer in mauris velit.
 
 
 > Blockquote ---
-> Quoteable
+Ut dictum libero sed dui sollicitudin quis sodales turpis auctor. Integer eget
+tortor sapien, vel venenatis diam. Aenean cursus nisi consectetur lorem
+elementum ut congue dolor . Vestibulum interdum, mi vel lobortis
+
+Ut dictum libero sed dui sollicitudin quis sodales turpis auctor. Integer eget
+tortor sapien, vel venenatis diam. Aenean cursus nisi consectetur lorem
+elementum ut congue dolor . Vestibulum interdum, mi vel lobortis
 
 \begin{figure}[H]
   \centering
@@ -101,5 +109,8 @@ sodales vestibulum. Nulla facilisi. Integer in mauris velit.
 \end{figure}
 
 
+\begin{align}
+H(X) = - \sum_{i=1}^{n}p(x_i)\log_bp(x_i)
+\end{align}
 
 [^1]: This is an example footnote
