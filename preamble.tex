@@ -7,6 +7,7 @@
 \usepackage{textcomp}
 \usepackage{fullpage}
 \usepackage{url}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 %\usepackage{mdframed}  % not availble on ubuntu
 
 % -- font styles
@@ -34,13 +35,18 @@
 
 % -- syntax highlighting
 \usepackage{listings}
-  \usepackage{courier}
+  \usepackage[scaled]{beramono}
 \usepackage{color}
 
 \usepackage{caption}
+% -- configure captions for figures
 \DeclareCaptionFormat{listing}{\par\hrule #1#2#3}
-\captionsetup[lstlisting]{format=listing, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
-\captionsetup[figure]{format=listing, singlelinecheck=false, margin=60pt, font={it,footnotesize,centering}}
+\captionsetup[figure]{%
+  format=listing, 
+  singlelinecheck=false, 
+  margin=60pt, 
+  font={it,footnotesize,centering}
+}
 
 \parskip 12pt
 
@@ -75,20 +81,29 @@
 
 
 \lstset{
+  %framesep=5pt,
   upquote=true,
   breaklines=false,
   %postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookrightarrow}},
   breakatwhitespace=true,
-  %numbers=left,
+  numbers=left,
   language=Java,
   basicstyle=\footnotesize\ttfamily,
-  %numberstyle=\tiny,
-  %numbersep=5pt,
+  numberstyle=\footnotesize\ttfamily,
+  numbersep=10pt,
   tabsize=2,
   extendedchars=true,
   showtabs=false,
   showspaces=false,
-  showstringspaces=false
+  showstringspaces=false,
+  xleftmargin=20pt,
+  aboveskip=10pt,
+  % colors
+  stringstyle=\color{Maroon},
+  commentstyle=\color{Gray},
+  rulecolor=\color{Gray},
+  keywordstyle=\color{Blue},
+  %backgroundcolor=\color{LightGray!.50}
 }
 \lstloadlanguages{
   Java

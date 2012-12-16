@@ -18,6 +18,21 @@ velit sed enim aliquet molestie ut vitae justo. Fusce iaculis, lacus sed
 suscipit tincidunt, mi nulla congue diam, ac convallis quam mi non nulla. Sed
 vitae leo nisi. Vestibulum blandit vehicula pellentesque. 
 
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}
+class MyJavaSource {
+    public MyJavaSource() {
+        // ... construct class
+    }
+    public string getId() {
+        // ... do stuff
+        return "hello world";
+    }
+}
+\end{lstlisting}
+\end{minipage}
+
+
 Vestibulum ante ipsum
 primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse
 in mi arcu. Cras vel felis leo. Sed suscipit risus purus, sed convallis libero.
@@ -107,7 +122,6 @@ elementum ut congue dolor . Vestibulum interdum, mi vel lobortis
   \label{fig:demo-diagram}
   \caption{Demo caption for diagram}
 \end{figure}
-
 
 \begin{align}
 H(X) = - \sum_{i=1}^{n}p(x_i)\log_bp(x_i)
