@@ -3,9 +3,10 @@ Introduction
 ==============
 
 **Lorem** *ipsum* ***dolor*** sit amet, consectetur adipiscing elit. Ut volutpat nulla
-condimentum neque pulvinar non cursus tortor malesuada. Praesent augue est,
-vulputate ac pulvinar nec, dictum vitae sapien. Nullam mi augue, viverra eget
-convallis molestie, tincidunt eu augue. Vestibulum ultricies rutrum purus, nec
+condimentum neque pulvinar non cursus tortor malesuada \citep{halevy2009unreasonable}. 
+Praesent augue est, `vulputate` ac pulvinar nec, dictum vitae sapien. Nullam mi
+augue, viverra eget convallis molestie, tincidunt eu augue. Vestibulum
+ultricies rutrum purus, nec
 
     instance Functor RegularExpression where
         f 'fmap' Empty             = Empty
@@ -92,11 +93,10 @@ sodales vestibulum. Nulla facilisi. Integer in mauris velit.
 > Blockquote ---
 > Quoteable
 
-
 \begin{figure}[H]
   \centering
-    \includegraphics[scale=0.6]{screenshot.png}
-  \label{fig:component-http}
+     \includegraphics[scale=0.6]{demo-diagram.eps}
+  \label{fig:demo-diagram}
   \caption{Demo caption for diagram}
 \end{figure}
 

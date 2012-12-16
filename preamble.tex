@@ -1,4 +1,5 @@
 
+\usepackage[comma,authoryear]{natbib}
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{setspace}
@@ -6,7 +7,7 @@
 \usepackage{textcomp}
 \usepackage{fullpage}
 \usepackage{url}
-%\usepackage{mdframed}
+%\usepackage{mdframed}  % not availble on ubuntu
 
 % -- font styles
 \usepackage{tgtermes}
@@ -62,6 +63,15 @@
 %           innerleftmargin=0pt,innerrightmargin=0pt,linewidth=0.75pt,%
 %       skipabove=25pt,skipbelow=25pt]\small}
 %   {\end{mdframed}}
+
+
+%% Bibliography configuration
+%% ------------------------------
+\bibliographystyle{apalike}
+% don't show reference label in the bibliography (APA specific)
+\makeatletter
+\def\@biblabel#1{}
+\makeatother
 
 
 \lstset{

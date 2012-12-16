@@ -1,11 +1,11 @@
 
 %% 
-%% LaTeX Boilerplate v2
+%% LaTeX Boilerplate (http://github.com/gbluma/latex-boilerplate/)
 %% 
 
 \documentclass[11pt,fleqn,leqno,letterpaper]{article}
 
-\include{commands}
+\include{preamble}
 
 \title{Document Title}
 \author{Author Name\\
@@ -13,28 +13,26 @@
   \small{Your Educational Institution}\\
   \small{\texttt{email@address.com}}
 }
-\date{September 14, 2012}
+\date{December 15, 2012}
 
 \begin{document}
 
-% \onehalfspacing
 \setstretch{1.09}
 \maketitle
 
 % -- Table of Contents --
-% missing in action
+% (would go here)
 
 % -- set document spacing --
-% \setstretch{1.09}
-% \setstretch{1.30}
-% \setstretch{1.50}
+% \setstretch{1.09}  % single line
+% \setstretch{1.30}  % single wide-spaced
+% \setstretch{1.50}  % one and a half spacing
 
 % -- Import content here
 \input{s_introduction}
 
 
-% -- Bibliography
-\bibliographystyle{plain}
-\bibliography{references.bib}
+% -- Bibliography (APA style)
+\bibliography{references}
 
 \end{document}
