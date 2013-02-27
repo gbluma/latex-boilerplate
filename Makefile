@@ -1,6 +1,12 @@
 
 build:
-	pdflatex -halt-on-error document.tex
+	./convert.sh
+	sed -i -e 's/\\begin{verbatim}/\\begin{minipage}\{0\.95\\textwidth}\\begin{lstlisting}/g' s_*.tex
+	sed -i -e 's/\\end{verbatim}/\\end{lstlisting}\\end{minipage}/g' s_*.tex
+	latex document.tex
+	bibtex document
+	latex document.tex
+	pdflatex document.tex
 
 check:
 	@echo "The following items may contain weak word usage.--------------------"
@@ -11,20 +17,12 @@ check:
 	@perl ./dups *.md 2>&2
 
 test:
-	./convert.sh
-	#$(MAKE) clean
-	#latex -halt-on-error document.tex
-	#bibtex document
-	pdflatex -halt-on-error document.tex
+	$(MAKE) build
 	./focus &> /dev/null
 
 open:
 	open document.pdf
 	# evince document.pdf &
 
-bib:
-	latex -halt-on-error document.tex
-	bibtex document
-
 clean:
-	rm -f *.out *.pdf *.aux *.dvi *.log *.blg *.bbl
+	rm -f *.out *.pdf *.aux *.dvi *.log *.blg *.bbl *.tex-e
