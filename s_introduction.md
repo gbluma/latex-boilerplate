@@ -18,20 +18,15 @@ velit sed enim aliquet molestie ut vitae justo. Fusce iaculis, lacus sed
 suscipit tincidunt, mi nulla congue diam, ac convallis quam mi non nulla. Sed
 vitae leo nisi. Vestibulum blandit vehicula pellentesque. 
 
-\begin{minipage}{0.95\textwidth}
-\begin{lstlisting}
-class MyJavaSource {
-    public MyJavaSource() {
-        // ... construct class
+    class MyJavaSource {
+        public MyJavaSource() {
+            // ... construct class
+        }
+        public string getId() {
+            // ... do stuff
+            return "hello world";
+        }
     }
-    public string getId() {
-        // ... do stuff
-        return "hello world";
-    }
-}
-\end{lstlisting}
-\end{minipage}
-
 
 Vestibulum ante ipsum
 primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse
