@@ -2,6 +2,8 @@
 
 ![Screenshot](https://github.com/gbluma/latex-boilerplate/raw/master/screenshot.png)
 
+([Here is an example PDF](https://github.com/gbluma/latex-boilerplate/blob/master/example.pdf?raw=true))
+
 I built this LaTeX template as the starting point for all of my homework assignments. I've used it with much success over the past couple years -- speeding up my workflow -- but it is not 100% perfect.
 
 I used to create LaTeX documents from scratch at the start of every assignment, but I would spend hours tweaking the same things on each assignment (i.e. margins, fonts, captions, etc). I also found that I was copy-and-pasting between projects to save time. Over time, it just made sense to build an official template -- this is it!
