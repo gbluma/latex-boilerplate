@@ -13,7 +13,7 @@ This template is an opinionated work in progress. It was designed to work around
 The design choices I made center around the tools I use. Here are a few of them:
 
  * Vim
- * Automake
+ * gnumake
  * Preview.app (OS X document viewer)
  * Markdown (via Pandoc)
 
