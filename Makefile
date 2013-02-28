@@ -10,11 +10,11 @@ build:
 
 check:
 	@echo "The following items may contain weak word usage.--------------------"
-	@sh ./weasels.sh *.md 1>&2
+	@sh ./weasels.sh s_*.md 1>&2
 	@echo "The following items may contain passive language.-------------------"
-	@sh ./passive_voice.sh *.md 1>&2
+	@sh ./passive_voice.sh s_*.md 1>&2
 	@echo "The following items may contain unnecessary duplication.------------"
-	@perl ./dups *.md 2>&2
+	@perl ./dups s_*.md 2>&2
 
 test:
 	$(MAKE) build
