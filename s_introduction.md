@@ -2,6 +2,32 @@
 Introduction
 ==============
 
+LaTeX is a document markup language and document preparation system for
+the TeX typesetting program. The term LaTeX refers only to the language in
+which documents are written, not to the editor used to write those documents.
+In order to create a document in LaTeX, a .tex file must be created using some
+form of text editor. While most text editors can be used to create a LaTeX
+document, a number of editors have been created specifically for working with
+LaTeX.
+
+LaTeX is widely used in academia. It is also used as the primary method
+of displaying formulas on Wikipedia. As a primary or intermediate format, e.g.,
+translating DocBook and other XML-based formats to PDF, LaTeX is used because
+of the high quality of typesetting achievable by TeX. The typesetting system
+offers programmable desktop publishing features and extensive facilities for
+automating most aspects of typesetting and desktop publishing, including
+numbering and cross-referencing, tables and figures, page layout and
+bibliographies.
+
+LaTeX is intended to provide a high-level language that accesses the power of
+TeX. LaTeX essentially comprises a collection of TeX macros and a program to
+process LaTeX documents. Because the TeX formatting commands are very
+low-level, it is usually much simpler for end-users to use LaTeX.
+
+LaTeX was originally written in the early 1980s by Leslie Lamport at SRI
+International.[3] The current version is LaTeX2e. LaTeX is
+free software and is distributed under the LaTeX Project Public License (LPPL).
+
 **Lorem** *ipsum* ***dolor*** sit amet, consectetur adipiscing elit. Ut volutpat nulla
 condimentum neque pulvinar non cursus tortor malesuada \citep{halevy2009unreasonable}. 
 Praesent augue est, `vulputate` ac pulvinar nec, dictum vitae sapien. Nullam mi
@@ -122,4 +148,3 @@ elementum ut congue dolor . Vestibulum interdum, mi vel lobortis
 H(X) = - \sum_{i=1}^{n}p(x_i)\log_bp(x_i)
 \end{align}
 
-[^1]: This is an example footnote
