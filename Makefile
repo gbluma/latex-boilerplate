@@ -15,6 +15,8 @@ check:
 	@sh ./passive_voice.sh s_*.md 1>&2
 	@echo "The following items may contain unnecessary duplication.------------"
 	@perl ./dups s_*.md 2>&2
+	@echo "Checking diction.---------------------------------------------------"
+	@sh diction.sh s_*.md 1>&2
 
 test:
 	$(MAKE) check
