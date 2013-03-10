@@ -37,6 +37,12 @@ if [ "$1" = "" ]; then
  exit
 fi
  
+output=$(egrep -i -n --color "\\b($weasels)\\b" $* )
 egrep -i -n --color "\\b($weasels)\\b" $*
+
+if [ "$output" == "" ]; then
+  exit 0
+else
+  exit 1
+fi
  
-exit 0

@@ -65,4 +65,12 @@ egrep -n -i --color \
  "\\b(am|are|were|being|is|been|was|be)\
 \\b[ ]*(\w+ed|($irregulars))\\b" $*
  
-exit 0
+output=$(egrep -n -i --color \
+ "\\b(am|are|were|being|is|been|was|be)\
+\\b[ ]*(\w+ed|($irregulars))\\b" $*)
+
+if [ "$output" == "" ]; then
+  exit 0
+else
+  exit 1
+fi

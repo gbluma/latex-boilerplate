@@ -17,6 +17,7 @@ check:
 	@perl ./dups s_*.md 2>&2
 
 test:
+	$(MAKE) check
 	$(MAKE) build
 	./focus &> /dev/null
 
