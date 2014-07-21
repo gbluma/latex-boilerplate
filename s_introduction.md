@@ -21,7 +21,7 @@ bibliographies.
 
 LaTeX is intended to provide a high-level language that accesses the power of
 TeX. LaTeX essentially comprises a collection of TeX macros and a program to
-process LaTeX documents. Because the TeX formatting commands are very
+process LaTeX documents. Because the TeX formatting commands are 
 low-level, it is usually much simpler for end-users to use LaTeX.
 
 LaTeX was originally written in the early 1980s by Leslie Lamport at SRI
